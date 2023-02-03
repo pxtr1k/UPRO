@@ -18,8 +18,10 @@ int brojJednakih(char *trgovina1, char *trgovina2) {
    else {
       brojac = -1;
    }
-   if (trg1 != NULL) fclose(trg1);
-   if (trg2 != NULL) fclose(trg2);
+   if (trg1 != NULL)
+      fclose(trg1);
+   if (trg2 != NULL)
+      fclose(trg2);
 
    return brojac;
 }
