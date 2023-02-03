@@ -1,4 +1,3 @@
-
 _Bool txt2bin(char *inputFile, char *outputFile){
 struct record r;
 FILE *tokulaz=fopen(inputFile, "r");
@@ -19,9 +18,4 @@ fclose(tokizlaz);
 
 return 1;
 }
-int main(void){
 
-
-
-return 0;
-}
