@@ -9,7 +9,7 @@ bool capitalizeName(char *name)
    {
       return false;
    }
-   for (int i = 0; i < n; i++)
+   for (int i = 0; i < duljina; i++)
    {
       if (i == 0 || name[i - 1] == ' ' || name[i - 1] == '-')
       {
