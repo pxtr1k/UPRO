@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 void igra(int seed, int brojBacanja, int *pobjednik, int *razlika){
 srand(seed);
 int r1=0, r2=0;
@@ -21,10 +18,3 @@ if(*razlika>0){
 return;
 }
 
-
-
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
-}
