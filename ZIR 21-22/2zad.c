@@ -22,7 +22,6 @@ duljinaniza++;
 
 
 
-
 *(niz+duljinaniza)='\0';
 *dulj=duljinaniza;
 
