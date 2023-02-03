@@ -1,6 +1,7 @@
 #include <stdbool.h>
 #include <ctype.h>
 #include <string.h>
+
 bool capitalizeName(char *name)
 {
    int duljina = strlen(name);
